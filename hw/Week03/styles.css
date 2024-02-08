@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  /* font-family: 'Brush Script MT', cursive;  */
+  /* background-color: bisque; */
+
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.2em;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+nav {
+  position: absolute;
+  display: inline;
+  right: 0;
+}
+
+.recipe_category {
+  display: inline-block;
+}
+
+.subcategory {
+  display: none;
+}
+
+nav span {
+  margin-right: 1em;
+}
+
+main {
+  margin: 1em;
+}
+
+.recipe_intro {
+  display: inline-block;
+  width: 100%; 
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+.recipe_img, .description_container {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.recipe_img {
+  padding-right: 1em;
+  box-sizing: border-box;
+}
+
+.description_container {
+  position: absolute;
+  right: 0;
+}
+
+.section_title {
+  margin-top: 0;
+}
+
+.recipe_details {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 1em;  
+}
+
+.ingredients_container, .instructions_container {
+  display: inline-block;
+  width: 50%;
+}
+
+.instructions_container {
+  position: absolute;
+  right: 0; 
+}
