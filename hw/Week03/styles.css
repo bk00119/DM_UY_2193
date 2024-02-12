@@ -1,25 +1,32 @@
-html, body {
+html,
+body {
   margin: 0;
 }
 
 body {
-  /* font-family: 'Brush Script MT', cursive;  */
-  /* background-color: bisque; */
+  font-family: "Brush Script MT", cursive;
+}
 
+main,
+header {
+  /* max-width: 1920px; */
 }
 
 header {
-  display: inline-block;
-  width: 100%;
   font-size: 1.2em;
-  padding: 1em;
-  box-sizing: border-box;
+  margin: 1em;
+  position: relative;
+  vertical-align: bottom;
 }
 
 nav {
   position: absolute;
   display: inline;
   right: 0;
+}
+
+.logo {
+  width: 3em;
 }
 
 .recipe_category {
@@ -31,7 +38,7 @@ nav {
 }
 
 nav span {
-  margin-right: 1em;
+  margin-left: 1em;
 }
 
 main {
@@ -40,26 +47,31 @@ main {
 
 .recipe_intro {
   display: inline-block;
-  width: 100%; 
+  width: 100%;
   position: relative;
   box-sizing: border-box;
 }
 
-
-.recipe_img, .description_container {
+.recipe_img_container,
+.description_container {
   display: inline-block;
   vertical-align: top;
   width: 50%;
 }
 
-.recipe_img {
+.recipe_img_container {
   padding-right: 1em;
   box-sizing: border-box;
 }
 
+.recipe_img {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .description_container {
   position: absolute;
-  right: 0;
 }
 
 .section_title {
@@ -70,15 +82,15 @@ main {
   display: inline-block;
   box-sizing: border-box;
   width: 100%;
-  margin-top: 1em;  
+  margin-top: 1em;
 }
 
-.ingredients_container, .instructions_container {
+.ingredients_container,
+.instructions_container {
   display: inline-block;
   width: 50%;
 }
 
 .instructions_container {
   position: absolute;
-  right: 0; 
 }

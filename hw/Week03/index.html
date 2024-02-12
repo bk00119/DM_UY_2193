@@ -9,13 +9,15 @@
   </head>
   <body>
     <header>
-      <img src="" alt="logo" class="logo" />
-      <nav>  
+      <img src="./img/logo.jpg" alt="logo" class="logo" />
+
+      <!-- NAVBAR -->
+      <nav>
         <span>Home</span>
         <span>About us</span>
-
         <div class="recipe_category">
           <span>Recipes</span>
+          <!-- SUBCATEGORY: DROPDOWN MENU UNDER RECIPES -->
           <div class="subcategory">
             <div class="subcategory_item">
               <span>subcategory 1</span>
@@ -29,14 +31,14 @@
     </header>
 
     <main>
+      <!-- RECIPE MENU TITLE -->
       <h1 class="recipe_name">Silver Dollar Pancakes</h1>
 
       <div class="recipe_intro">
-        <img
-          src="./img/pancakes.jpeg"
-          class="recipe_img"
-          alt="pancakes"
-        />
+        <!-- RECIPE IMAGE -->
+        <div class="recipe_img_container">
+          <img src="./img/pancakes.jpeg" class="recipe_img" alt="pancakes" />
+        </div>
         <div class="description_container">
           <h2 class="section_title">Description</h2>
           <p>
@@ -47,8 +49,9 @@
           </p>
         </div>
       </div>
-
+      
       <div class="recipe_details">
+        <!-- RECIPE INGREDIENTS LIST -->
         <div class="ingredients_container">
           <h2 class="section_title">Ingredients</h2>
           <ul class="ingredients_list">
@@ -62,6 +65,7 @@
           </ul>
         </div>
 
+        <!-- RECIPE INSTRUCTIONS -->
         <div class="instructions_container">
           <h2 class="section_title">Instructions</h2>
           <ol class="instructions_list">
