@@ -15,6 +15,13 @@
   color: black;
 }
 
+.card:hover {
+  box-shadow: 6px 6px 6px lightgray;
+  position: relative;
+  top: -4px;
+  left: -4px;
+}
+
 .card_img {
   width: 100%;
   aspect-ratio: 1;

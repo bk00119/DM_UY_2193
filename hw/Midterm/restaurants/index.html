@@ -242,9 +242,11 @@
           if (restaurant) {
             pageTitle.innerHTML = `${restaurant.name}`
             restaurantContainer.innerHTML = `
-              <p class="title">${restaurant.name} <a class="address" href=${restaurant.gmap_link} target="_blank">${restaurant.full_address}</a></p>
-              <p class="subtitle">Highlight: ${restaurant.dish_name}</p>
-              <p class="description">${restaurant.description}</p>
+              <div class="text_container">
+                <p class="title">${restaurant.name} <a class="address" href=${restaurant.gmap_link} target="_blank">${restaurant.full_address}</a></p>
+                <p class="subtitle">Highlight: ${restaurant.dish_name}</p>
+                <p class="description">${restaurant.description}</p>
+              </div>
               <div class="content">
                 <img src=${restaurant.dish_img} class="dish_img" />
               </div>
