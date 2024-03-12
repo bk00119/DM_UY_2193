@@ -1,0 +1,33 @@
+html {
+  font-family: "Kalam", cursive;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+nav a span {
+  font-size: 0.5em;
+}
