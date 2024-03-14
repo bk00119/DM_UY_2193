@@ -13,6 +13,7 @@
   cursor: pointer;
   text-decoration: none;
   color: black;
+  border: 1px solid #dedede;
 }
 
 .card:hover {
